@@ -1,7 +1,7 @@
 <svg id="root" width="100%" height="100%">
   <rect id="sky" width="100%" height="100%" />
-  <circle r="200%" fill="#7E905B" cy="300%-30" cx="80%" layer="3" />
-  <circle r="300%" fill="#94A661" cy="400%-50" layer="3" />
+  <circle id="hill--front" r="200%" fill="#7E905B" cy="300%-30" cx="80%" layer="3" />
+  <circle id="hill--back" r="300%" fill="#94A661" cy="400%-50" layer="3" />
   <image id="stars" width="100%" height="100%" href="stars.png" />
   <text id="time" layer="3" />
   <svg pointer-events="visible" height="100%" width="100%">

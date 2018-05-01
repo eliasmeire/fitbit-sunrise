@@ -90,9 +90,18 @@ export const moonColorScale = new ColorScale([
 
 export const starsOpacityScale = new NumberScale([
   { number: 1, value: 0 },
-  { number: 1, value: 7 },
+  { number: 1, value: 8 },
   { number: 0, value: 9 },
   { number: 0, value: 20 },
   { number: 1, value: 22 },
   { number: 1, value: 24 }
+]);
+
+export const hillDarkenScale = new NumberScale([
+  { number: 0.6, value: 0 },
+  { number: 0.6, value: 3 },
+  { number: 0.9, value: 8 },
+  { number: 1, value: 12 },
+  { number: 0.9, value: 21 },
+  { number: 0.6, value: 24 }
 ]);

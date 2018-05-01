@@ -14,3 +14,13 @@ export const hexToRgb = hex => {
 export const rgbToHex = ({ r, g, b }) => {
   return `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
 };
+
+export const darkenRgb = ({ r, g, b }, factor) => ({
+  r: Math.round(r * factor),
+  g: Math.round(g * factor),
+  b: Math.round(b * factor)
+});
+
+export const darkenHex = (hex, factor) => {
+  return rgbToHex(darkenRgb(hexToRgb(hex), factor));
+};
