@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "6a1b8b3d-ddc5-450c-9b70-9ec17021f984",
+    "appType": "clockface",
+    "appDisplayName": "Sunrise",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Sunrise"
+      }
+    }
+  }
+}

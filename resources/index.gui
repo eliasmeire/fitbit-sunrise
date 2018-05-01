@@ -1,0 +1,32 @@
+<svg id="root" width="100%" height="100%">
+  <rect id="sky" width="100%" height="100%" />
+  <circle r="200%" fill="#7E905B" cy="300%-30" cx="80%" layer="3" />
+  <circle r="300%" fill="#94A661" cy="400%-50" layer="3" />
+  <image id="stars" width="100%" height="100%" href="stars.png" />
+  <text id="time" layer="3" />
+  <svg pointer-events="visible" height="100%" width="100%">
+    <g id="sun-moon" transform="translate(50%,100%)">
+      <g id="sun-group">
+        <circle id="sun" cx="50%-50" cy="100%-60" r="50" layer="2" />
+        <circle class="sun-ray" opacity="0.3" cx="50%-50" cy="100%-60" r="55" />
+        <circle class="sun-ray" opacity="0.2" cx="50%-50" cy="100%-60" r="60" />
+        <circle class="sun-ray" opacity="0.1" cx="50%-50" cy="100%-60" r="65" />
+      </g>
+      <g id="moon-group">
+        <circle id="moon" cx="50%-50" cy="100%-40" r="40" layer="2" />
+        <circle class="moon-ray" opacity="0.2" cx="50%-50" cy="100%-40" r="45" />
+        <circle class="moon-ray" opacity="0.1" cx="50%-50" cy="100%-40" r="50" />
+        <circle class="crater" cx="50%-50" cy="100%-10" r="4" />
+        <circle class="crater" cx="50%-60" cy="100%-60" r="7" />
+        <circle class="crater" cx="50%-40" cy="100%-36" r="2" />
+        <circle class="crater" cx="50%-80" cy="100%-50" r="3" />
+        <circle class="crater" cx="50%-60" cy="100%-60" r="1.2" />
+        <circle class="crater" cx="50%-25" cy="100%-40" r="2" />
+        <circle class="crater" cx="50%-40" cy="100%-64" r="1.8" />
+        <circle class="crater" cx="50%-64" cy="100%-25" r="3.8" />
+        <circle class="crater" cx="50%-20" cy="100%-30" r="3.8" />
+        <circle class="crater" cx="50%-42" cy="100%-50" r="3"  />
+      </g>
+    </g>
+  </svg>
+</svg>

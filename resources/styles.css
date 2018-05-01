@@ -1,0 +1,28 @@
+#time {
+  font-size: 84;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: white;
+}
+
+.crater {
+  fill: #C6D3FC;
+  layer: 2;
+}
+
+.moon-ray {
+  fill: white;
+  layer: 1;
+}
+
+.sun-ray {
+  fill: orange;
+  layer: 1;
+}
+
+#moon {
+  layer: 2;
+}
